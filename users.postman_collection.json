@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "3f0288d0-3f07-4643-affc-4a4f29ecaf2a",
+		"name": "users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add the user registration details",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ram Kshirsagar\",\r\n    \"mobile\": \"9767747388\",\r\n    \"email\": \"sandy@email.com\",\r\n    \"password\": \"Sandy123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/user/registration",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get user details by passing bearer token in header",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNjBkZDQwMTdjOTI2NzAwNTU4MzczZTM2IiwiaWF0IjoxNjI1MTEyNTk5fQ.k28BrE-VUSHrQNcuTCwq2kBMiwOiHJcZZqB4D6-qh30",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNjBkYzU0N2Y5N2UxMmYyN2UwODhiMjg3IiwiaWF0IjoxNjI1MDUyMjg3fQ.nVYJCNdIYoKsm6CdSf7PMlAN-57EIVkorIvq5GFI0og",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/user/myprofile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						"myprofile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

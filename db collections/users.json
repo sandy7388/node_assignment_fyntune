@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "60dc547f97e12f27e088b287"
+  },
+  "name": "Sandip Kshirsagar",
+  "mobile": 9767747388,
+  "email": "sandy@email.com",
+  "password": "Sandy123",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60dd4017c926700558373e36"
+  },
+  "name": "Ram Kshirsagar",
+  "mobile": 9767747388,
+  "email": "sandy@email.com",
+  "password": "Sandy123",
+  "__v": 0
+}]

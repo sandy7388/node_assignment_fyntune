@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "60dd3d69395a611e90e1241f"
+  },
+  "timestamp": {
+    "$date": "2021-07-01T03:58:33.387Z"
+  },
+  "level": "error",
+  "message": "\"authorization\" is required",
+  "meta": null
+},{
+  "_id": {
+    "$oid": "60dd3dbd1804e72328cac221"
+  },
+  "timestamp": {
+    "$date": "2021-07-01T03:59:57.013Z"
+  },
+  "level": "error",
+  "message": "jwt must be provided",
+  "meta": null
+},{
+  "_id": {
+    "$oid": "60dd3e1660a914089842a725"
+  },
+  "timestamp": {
+    "$date": "2021-07-01T04:01:26.476Z"
+  },
+  "level": "error",
+  "message": "jwt must be provided",
+  "meta": null
+},{
+  "_id": {
+    "$oid": "60dd3e403444b51554549073"
+  },
+  "timestamp": {
+    "$date": "2021-07-01T04:02:08.532Z"
+  },
+  "level": "error",
+  "message": "invalid token",
+  "meta": null
+},{
+  "_id": {
+    "$oid": "60dd3e6cd5f4e722dcac9ff6"
+  },
+  "timestamp": {
+    "$date": "2021-07-01T04:02:52.104Z"
+  },
+  "level": "error",
+  "message": "invalid token",
+  "meta": null
+},{
+  "_id": {
+    "$oid": "60dd3e9a5ea4491cc87773cd"
+  },
+  "timestamp": {
+    "$date": "2021-07-01T04:03:38.462Z"
+  },
+  "level": "error",
+  "message": "Logs is not a constructor",
+  "meta": null
+},{
+  "_id": {
+    "$oid": "60dd3eff1ef26c1c8cba3d33"
+  },
+  "timestamp": {
+    "$date": "2021-07-01T04:05:19.303Z"
+  },
+  "level": "error",
+  "message": "Logs is not defined",
+  "meta": null
+},{
+  "_id": {
+    "$oid": "60dd3f975bb7872c6ca4079a"
+  },
+  "timestamp": {
+    "$date": "2021-07-01T04:07:51.552Z"
+  },
+  "level": "error",
+  "message": "api_logs validation failed: request: Cast to string failed for value \"{\n  name: 'Ram Kshirsagar',\n  mobile: '9767747388',\n  email: 'sandy@email.com',\n  password: 'Sandy123'\n}\" at path \"request\"",
+  "meta": null
+}]
